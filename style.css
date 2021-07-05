@@ -1,7 +1,50 @@
 body{
   font-family: 'Hind Siliguri', sans-serif;
 font-family: 'Source Sans Pro', sans-serif;
+margin: 0px;
+}
+h1{
+  font-size: 50px;
+}
+#color-contaner{
+  color: purple;
 }
 .width-container{
-  width: 45%;
+  width: 50%;
+  padding: 0 5%;
+  padding-top: 30px;
+}
+.img-container{
+  width: 50%;
+  padding-top:50px;
+}
+.img-container img{
+  width: 100%;
+  
+  border:4px solid rgb(255, 130, 47);
+  border-radius: 15px;
+  box-shadow: 2px 2px 8px 3px greenyellow;
+}
+.head-container{
+  display: flex;
+  padding: 30px;
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.contact-button{
+  background-color: greenyellow;
+  color:rgb(29, 139, 75);
+  text-transform: uppercase;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 25px;
+  border: 3px solid green;
+  box-shadow: 2px 2px 9px 2px rgb(255, 94, 0);
+}
+.width-container p{
+  margin-bottom: 40px;
+  color:gray;
+  line-height: 28px;
+  width: 550px;
+  text-align: justify;
 }
