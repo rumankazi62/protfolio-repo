@@ -48,3 +48,16 @@ h1{
   width: 550px;
   text-align: justify;
 }
+/* top part in mobile device */
+@media only screen and (max-width: 688px) {
+  .head-container{
+    display: grid;
+  }
+  .width-container p{
+    width: 100%;
+  }
+  .width-container h1{
+    font-size: 20px;
+  }
+  
+}
