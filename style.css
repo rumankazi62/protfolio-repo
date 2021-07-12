@@ -48,10 +48,34 @@ h1{
   width: 550px;
   text-align: justify;
 }
-/* top part in mobile device */
+
+
+.container{
+  width: 1400px;
+  margin: 0 auto;
+}
+/* 2nd section styles */
+.members{
+  display: flex;
+  grid-template-columns: repeat(5, 1fr);
+}
+.member{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.member-info{
+  font-size: 40px;
+  text-align: center;
+}
+/* responsive part in mobile device */
+
 @media only screen and (max-width: 688px) {
   .head-container{
     display: grid;
+  }
+  .container{
+    width: 100%;
   }
   .width-container p{
     width: 100%;
@@ -59,5 +83,14 @@ h1{
   .width-container h1{
     font-size: 20px;
   }
-  
+  #head-title{
+    text-align: center;
+  }
+  .members{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .member{
+    flex-direction: column;
+  }
 }
